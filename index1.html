@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <form onsubmit="saveToCrudCrud(event)">
+            <label> CandyName:</label>
+            <input type="text" name="CandyName" id="CandyNameInputTag" required/>
+            <label> Description:</label>
+            <input type="text" name="Description" id="DescriptionInputTag" required/>
+            <label> Price(in_Rs.):</label>
+            <input type="Numbers" name="Price" id="PriceInputTag" required/>
+            <label> Quantity</label>
+            <input type="Numbers" name="Quantity" id="QuantityInputTag" required/>
+            <button> Add Item</button>
+        </form>
+        <ul id="ListOfCandies"></ul>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
